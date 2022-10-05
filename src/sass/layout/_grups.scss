@@ -42,6 +42,11 @@
         display: flex;
         flex-direction: column;
         
+        @media (max-width: 480px) {
+            padding: 30px 20px;
+        }
+        
+        
         &-price {
             z-index: 0;
             
@@ -87,5 +92,11 @@
             text-align: center;
             line-height: 1.6;
         }
+    }
+}
+
+.grups-image {
+    @media (max-width: 480px) {
+        max-height: 410px;
     }
 }
