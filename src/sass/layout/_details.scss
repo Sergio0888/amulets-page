@@ -1,5 +1,9 @@
 .section-details-background {
     background: linear-gradient(#ffffff, #aca6fe,);
+
+    @media (max-width: 480px) {
+        padding-top: 0;
+    }
 }
 
 .details {

@@ -1,6 +1,10 @@
 .grups {
     background: linear-gradient(#aca6fe, #fff );
 
+    @media (max-width: 480px) {
+        padding-bottom: 0;
+    }
+
     &-list {
         display: flex;
         justify-content: space-between;
