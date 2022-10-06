@@ -42,6 +42,7 @@
         position: absolute;
         margin: 14px 15px;
         left: 0;
+        top: 0;
         transition: $main-trans;
     }
 
@@ -130,6 +131,8 @@
         }
         &.checkbox {
             padding-left: 10px;
+            background-color: #FFFFFF;
+            color: #212121;;
         }
     }  
 }

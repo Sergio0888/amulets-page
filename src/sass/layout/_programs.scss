@@ -22,7 +22,7 @@
 }
 
 .section-programs {
-    background: linear-gradient(#b6b0ee, #b08bd5);
+    background: linear-gradient(#b6b0eecc, #b08bd5c4);
 }
 
 
@@ -149,8 +149,6 @@
 .portfolio__item-box {
     position: relative;
     overflow: hidden;
-
-    height: 245px;
 }
 
 // .portfolio__item-box-image {
@@ -196,6 +194,7 @@
     box-sizing: border-box;
     // border: 2px solid #fcfbff;
     border-top: none;
+    margin-top: -2px;
     border-top-width: 110px;
     background: linear-gradient(#18171b, #525276);
 
